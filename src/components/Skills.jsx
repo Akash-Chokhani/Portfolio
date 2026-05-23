@@ -11,20 +11,20 @@ const skillGroups = [
   },
   {
     category: 'Backend',
-    skills: ['FastAPI', 'Django', 'Node.js', 'Express.js'],
-  },
-  {
-    category: 'AI Integration',
-    skills: ['OpenAI', 'Gemini Image', 'OpenRouter', 'Tensorflow'],
+    skills: ['FastAPI', 'Node.js', 'Express.js', 'PostgreSQL'],
   },
   {
     category: 'DevOps & Cloud',
-    skills: ['Azure', 'Docker', 'GitHub Actions', 'Railway'],
+    skills: ['AWS', 'Azure', 'Docker', 'GitHub Actions'],
   },
   {
-    category: 'Tools',
-    skills: ['Git', 'VS Code', 'Claude Code', 'Linux'],
+    category: 'AI Integration',
+    skills: ['API Integration', 'Prompt Engineering', 'RAG', 'Knowledge Graph'],
   },
+  {
+    category: 'AI Model Training',
+    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Hugging Face'],
+  }
 ]
 
 export default function Skills() {
