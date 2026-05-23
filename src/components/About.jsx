@@ -7,10 +7,10 @@ export default function About() {
         <p className={styles.greeting}>Hi, I'm</p>
         <h1 className={styles.name}>Akash Chokhani</h1>
         <h2 className={styles.title}>
-          <span className={styles.cursor}>&gt;</span> AI Software Developer
+          <span className={styles.cursor}>&gt;</span> AI Software Developer & Deep Learning Engineer
         </h2>
         <p className={styles.tagline}>
-          I build fast, reliable AI-integrated web applications.<br />
+          I build fast, efficient and reliable AI solutions.<br />
           Available for freelance projects.
         </p>
         <div className={styles.actions}>
