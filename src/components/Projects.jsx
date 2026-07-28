@@ -2,14 +2,14 @@ import styles from './Projects.module.css'
 
 const projects = [
   {
-    name: 'AI BrandFactory (Private Beta)',
+    name: 'AI BrandFactory (Beta)',
     description: 'A SaaS platform that helps businesses and freelancers create professional marketing content for every social media platforms instantly without marketing experience.',
     tags: ['OpenRouter', 'Prisma', 'PostgreSQL', 'Cloudflare'],
     github: null,
     live: 'https://www.aibrandfactory.com/',
   },
   {
-    name: 'AI VidSummary (Beta)',
+    name: 'AI VidSummary',
     description: 'A SaaS website to get instant summaries of youtube videos and also chat with AI about them.',
     tags: ['React', 'Node.js', 'OpenAI', 'Railway'],
     github: null,
