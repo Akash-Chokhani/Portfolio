@@ -1,49 +1,5 @@
+import { projects } from '../data/portfolio'
 import styles from './Projects.module.css'
-
-const projects = [
-  {
-    name: 'AI BrandFactory (Beta)',
-    description: 'A SaaS platform that helps businesses and freelancers create professional marketing content for every social media platforms instantly without marketing experience.',
-    tags: ['OpenRouter', 'Prisma', 'PostgreSQL', 'Cloudflare'],
-    github: null,
-    live: 'https://www.aibrandfactory.com/',
-  },
-  {
-    name: 'AI VidSummary',
-    description: 'A SaaS website to get instant summaries of youtube videos and also chat with AI about them.',
-    tags: ['React', 'Node.js', 'OpenAI', 'Railway'],
-    github: null,
-    live: 'https://www.aividsummary.com/',
-  },
-  {
-    name: 'DeepFake Detection',
-    description: 'Trained custom CNNs, fine-tuned VGG, ResNet, Inception, MobileNet and benchmarked deepfake detection across models and datasets using GAN-generated synthetic data.',
-    tags: ['PyTorch', 'Scikit-learn', 'CNN', 'GAN'],
-    github: null,
-    live: null,
-  },
-  {
-    name: 'Skin Problems Detection for Medical Analysis',
-    description: 'Built and trained custom lightweight YOLOv8 model for real-time skin problems detection like acne, wrinkles, oily skin, etc.',
-    tags: ['TensorFlow', 'Roboflow', 'Kaggle', 'YOLO'],
-    github: null,
-    live: null,
-  },
-  {
-    name: 'BayState AI Designer',
-    description: 'An AI assistant which helps customers design and remodel their kitchen from an extensive gallery of kitchen cabinets and closet systems.',
-    tags: ['RAG', 'Vector Database', 'Re-ranking', 'Azure'],
-    github: null,
-    live: null,
-  },
-  {
-    name: 'Car Honk Detection',
-    description: 'Real-time car honk detection for on-the-go application using lightweight deep learning model.',
-    tags: ['Python', 'TensorFlow', 'CNN', 'Flutter'],
-    github: 'https://github.com/Akash-Chokhani/Car-Honk-Detection',
-    live: null,
-  }
-]
 
 export default function Projects() {
   return (

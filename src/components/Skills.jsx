@@ -1,31 +1,5 @@
+import { skillGroups } from '../data/portfolio'
 import styles from './Skills.module.css'
-
-const skillGroups = [
-  {
-    category: 'Languages',
-    skills: ['C++', 'Python', 'HTML/CSS', 'TypeScript'],
-  },
-  {
-    category: 'Frontend',
-    skills: ['React', 'Next.js', 'Tailwind CSS', 'Flutter'],
-  },
-  {
-    category: 'Backend',
-    skills: ['FastAPI', 'Node.js', 'Express.js', 'PostgreSQL'],
-  },
-  {
-    category: 'DevOps & Cloud',
-    skills: ['AWS', 'Azure', 'Docker', 'GitHub Actions'],
-  },
-  {
-    category: 'AI Integration',
-    skills: ['API Integration', 'Prompt Engineering', 'RAG', 'Knowledge Graph'],
-  },
-  {
-    category: 'AI Model Training',
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Hugging Face'],
-  }
-]
 
 export default function Skills() {
   return (

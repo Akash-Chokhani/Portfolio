@@ -1,15 +1,5 @@
+import { publications } from '../data/portfolio'
 import styles from './Publications.module.css'
-
-const publications = [
-  {
-    title: 'Real-Time Car Honk Detection for On-the-Go Application using Lightweight Deep Learning Model',
-    venue: '2024 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)',
-    authors: 'Akash Chokhani, et al.',
-    // Empty fields are hidden.
-    abstract: '',
-    link: 'https://ieeexplore.ieee.org/document/10898423',
-  },
-]
 
 export default function Publications() {
   return (
