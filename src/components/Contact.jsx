@@ -13,7 +13,7 @@ export default function Contact() {
           via email or LinkedIn.
         </p>
         <div className={styles.btns}>
-          <a href="mailto:akashchokhani99@gmail.com" className={styles.btn}>
+          <a href="mailto:akashchokhani00@gmail.com" className={styles.btn}>
             Say Hello ↗
           </a>
           <a href="https://linkedin.com/in/akash-chokhani/" target="_blank" rel="noreferrer" className={styles.btn}>

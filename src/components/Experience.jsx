@@ -6,7 +6,7 @@ const experiences = [
     role: 'Co-Founder & CTO',
     period: 'Feb 2026 — Present',
     description: 'Collaborating and building SaaS products for businesses, freelancers, and content creators.',
-    tags: ['React', 'Node.js', 'Openrouter', 'Railway'],
+    tags: ['React', 'Node.js', 'OpenRouter', 'Railway'],
   },
   {
     company: 'Freelance',

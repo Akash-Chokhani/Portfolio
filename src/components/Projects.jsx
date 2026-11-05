@@ -25,7 +25,7 @@ const projects = [
   {
     name: 'Skin Problems Detection for Medical Analysis',
     description: 'Built and trained custom lightweight YOLOv8 model for real-time skin problems detection like acne, wrinkles, oily skin, etc.',
-    tags: ['Tensorflow', 'Roboflow', 'Kaggle', 'YOLO'],
+    tags: ['TensorFlow', 'Roboflow', 'Kaggle', 'YOLO'],
     github: null,
     live: null,
   },
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Car Honk Detection',
     description: 'Real-time car honk detection for on-the-go application using lightweight deep learning model.',
-    tags: ['Python', 'Tensorflow', 'CNN', 'Flutter'],
+    tags: ['Python', 'TensorFlow', 'CNN', 'Flutter'],
     github: 'https://github.com/Akash-Chokhani/Car-Honk-Detection',
     live: null,
   }

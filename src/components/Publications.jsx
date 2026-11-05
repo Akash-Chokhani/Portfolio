@@ -4,8 +4,9 @@ const publications = [
   {
     title: 'Real-Time Car Honk Detection for On-the-Go Application using Lightweight Deep Learning Model',
     venue: '2024 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)',
-    authors: 'Akash Chokhani, Co-Author',
-    abstract: 'A brief description of the research paper, its contributions, and findings.',
+    authors: 'Akash Chokhani, et al.',
+    // Empty fields are hidden.
+    abstract: '',
     link: 'https://ieeexplore.ieee.org/document/10898423',
   },
 ]
@@ -32,8 +33,8 @@ export default function Publications() {
               <div className={styles.meta}>
                 <span className={styles.venue}>{pub.venue}</span>
               </div>
-              <p className={styles.authors}>{pub.authors}</p>
-              <p className={styles.abstract}>{pub.abstract}</p>
+              {pub.authors && <p className={styles.authors}>{pub.authors}</p>}
+              {pub.abstract && <p className={styles.abstract}>{pub.abstract}</p>}
             </div>
           ))}
         </div>

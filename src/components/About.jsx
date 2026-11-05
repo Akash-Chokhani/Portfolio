@@ -1,3 +1,4 @@
+import NeuralBackground from './NeuralBackground'
 import styles from './About.module.css'
 
 export default function About() {
@@ -22,10 +23,11 @@ export default function About() {
           <span className={styles.divider}>/</span>
           <a href="https://linkedin.com/in/akash-chokhani/" target="_blank" rel="noreferrer" className={styles.social}>LinkedIn</a>
           <span className={styles.divider}>/</span>
-          <a href="mailto:akashchokhani99@gmail.com" className={styles.social}>Email</a>
+          <a href="mailto:akashchokhani00@gmail.com" className={styles.social}>Email</a>
         </div>
       </div>
       <div className={styles.grid} aria-hidden="true" />
+      <NeuralBackground />
     </section>
   )
 }
