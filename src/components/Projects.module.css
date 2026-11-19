@@ -24,7 +24,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
   gap: 1.25rem;
 }
 
@@ -110,7 +110,33 @@
 }
 
 @media (max-width: 600px) {
+  .section {
+    padding: 4rem 1.25rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+    min-height: 0;
+  }
+
+  .cardLink {
+    padding: 0.4rem 0;
+  }
+}
+
+/* Lift effect only where a real pointer can hover, so cards don't stick raised after a tap. */
+@media (hover: none) {
+  .card:hover {
+    transform: none;
   }
 }

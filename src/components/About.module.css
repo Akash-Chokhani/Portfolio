@@ -1,6 +1,7 @@
 .about {
   position: relative;
   min-height: calc(100vh - 57px);
+  min-height: calc(100svh - 57px);
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -130,4 +131,38 @@
 
 .divider {
   color: var(--border);
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 3rem 1.25rem;
+  }
+
+  .name {
+    letter-spacing: -1px;
+  }
+
+  .tagline {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .btnPrimary,
+  .btnSecondary {
+    text-align: center;
+  }
+
+  .socials {
+    flex-wrap: wrap;
+  }
+
+  .social {
+    padding: 0.5rem 0;
+  }
 }

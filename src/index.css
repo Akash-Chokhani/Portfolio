@@ -19,9 +19,14 @@
 
 html {
   scroll-behavior: smooth;
+  /* Keep section headings clear of the sticky navbar when jumping to anchors. */
+  scroll-padding-top: 72px;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
+  overflow-x: hidden;
+  overflow-wrap: break-word;
   background-color: var(--bg);
   color: var(--text);
   font-family: var(--font-sans);

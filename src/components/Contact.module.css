@@ -73,3 +73,26 @@
   color: var(--accent);
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .section {
+    padding: 4rem 1.25rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
+
+  .btns {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .btn {
+    text-align: center;
+  }
+}
